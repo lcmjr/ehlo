@@ -4,12 +4,13 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
 class Equipe extends Migration{
-    private $tabela;
+    private $tabela = "equipe";
 
     public function up(){
         Schema::create($this->tabela, function (Blueprint $table) {
             $table->increments('id');
             $table->string('titulo', 100);
+            $table->string('foto', 100);
             $table->text('texto');
             $table->string('linkedin', 100);
         });

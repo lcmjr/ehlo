@@ -3,8 +3,8 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class textos extends Migration{
-    private $tabela;
+class Textos extends Migration{
+    private $tabela = "textos";
 
     public function up(){
         Schema::create($this->tabela, function (Blueprint $table) {

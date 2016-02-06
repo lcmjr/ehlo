@@ -4,7 +4,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
 class QuemSomos extends Migration{
-    private $tabela;
+    private $tabela = "quem_somos";
 
     public function up(){
         Schema::create($this->tabela, function (Blueprint $table) {
