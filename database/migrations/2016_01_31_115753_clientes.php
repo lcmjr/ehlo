@@ -10,6 +10,7 @@ class Clientes extends Migration{
         Schema::create($this->tabela, function (Blueprint $table) {
             $table->increments('id');
             $table->string('logo', 100);
+            $table->string('foto_fundo', 100);
             $table->string('nome_pessoa', 100);
             $table->string('nome_empresa',100);
             $table->string('resumo_depoimento', 300);
