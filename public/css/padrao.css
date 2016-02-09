@@ -1,0 +1,345 @@
+/* padroes */
+body{
+    margin:0;
+    padding-top: 178px;
+    font:20px/1.2 'Maven Pro', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.central{
+    margin:0 auto;
+    width: 100%;
+    max-width: 980px;
+}
+.clear{
+    clear: both;
+}
+.cor-rosa{
+    color:#e9426b;
+}
+.cor-azul{
+    color:#3bb3f0;
+}
+.cor-azul-1{
+    color:#1857a1;
+}
+.cor-azul-2{
+    color:#40b4f0;
+}
+.cor-verde{
+    color:#94bc19;
+}
+.cor-laranja{
+    color:#fc9813;
+}
+.cor-roxo{
+    color:#7861a3;
+}
+.cor-cinza{
+    color:#8a8c8f;
+}
+.chamada {
+    background:  top center no-repeat;
+}
+/* topo */
+#topo-principal{
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background: white;
+    top: 0;
+    z-index: 100;
+}
+.logo-topo{
+    background: url(../imagens/logo-menu.png);
+    width: 148px;
+    height: 169px;
+    display: inline-block;
+    margin: 0 10px -55px;
+}
+#topo-principal::after, #topo-principal::before {
+    background: url(../imagens/barra-menu.png) top center;
+    content: '';
+    display: block;
+}
+#topo-principal::before {
+    height: 15px;
+}
+#topo-principal::after {
+    background-image: url(../imagens/barra-menu-bottom.png);
+    height: 45px;
+    margin: 43px 0 -44px;
+}
+.link-menu{
+    display: inline-block;
+    width: 90px;
+    margin: 0 10px;
+}
+.link-menu::before {
+    display: block;
+    content: '';
+    width: 25px;
+    height: 14px;
+    margin: 0 auto 5px;
+}
+.link-menu.cor-rosa::before{
+    background-image: url(../imagens/gota-rosa.png);
+}
+.link-menu.cor-azul::before{
+    background-image: url(../imagens/gota-azul.png);
+}
+.link-menu.cor-verde::before{
+    background-image: url(../imagens/gota-verde.png);
+}
+.link-menu.cor-laranja::before{
+    background-image: url(../imagens/gota-laranja.png);
+}
+.link-menu.cor-roxo::before{
+    background-image: url(../imagens/gota-roxo.png);
+}
+.link-menu.cor-cinza::before{
+    background-image: url(../imagens/gota-cinza.png);
+}
+/* home */
+.secao-home {
+    box-sizing: border-box;
+    float: left;
+    position:relative;
+}
+.link-secao-home {
+    width: 254px;
+    height: 49px;
+    display: block;
+    margin: 25px 0 30px;
+    position: relative;
+    z-index: 2;
+}
+.secao-home-1 .icone-secao-home {
+    float: left;
+    background: url(../imagens/icone-porque-exitimos.png);
+    width: 409px;
+    height: 236px;
+    margin: 0 30px 0 0;
+}
+.secao-home-2 .icone-secao-home {
+    background: url(../imagens/icones-quem-somos.png);
+    width: 328px;
+    margin-left: -40px;
+    height: 215px;
+}
+.secao-home-3 .icone-secao-home {
+    background: url(../imagens/icone-posicionamento.png);
+    width: 318px;
+    height: 220px;
+    margin: 0 0 20px -50px;
+}
+.secao-home-4 .icone-secao-home {
+    background: url(../imagens/icone-etapa.png);
+    width: 281px;
+    height: 310px;
+    margin-left: -25px;
+}
+.secao-home-5 .icone-secao-home {
+    background: url(../imagens/icone-pensar.png);
+    width: 302px;
+    height: 247px;
+    margin-left: -45px;
+}
+.secao-home-1 .link-secao-home{
+    background:url(../imagens/btn-por-que-existimos.png);
+    float: right;
+    margin: 25px 85px 0 -20px;
+}
+.secao-home-2 .link-secao-home{
+    background:url(../imagens/btn-quem-somos.png);
+}
+.secao-home-3 .link-secao-home{
+    background:url(../imagens/btn-como-fazemos.png);
+}
+.secao-home-4 .link-secao-home{
+    background:url(../imagens/btn-etapa1.png);
+}
+.secao-home-5 .link-secao-home{
+    background:url(../imagens/btn-formatos.png);
+}
+#container-logo {
+    clear: both;
+    width: 301px;
+    background: url(../imagens/linha-logo.png);
+    height: 252px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 49px;
+    position: relative;
+    z-index: 2;
+}
+.secao-home-1 {
+    float: right;
+    width: 762px;
+    margin-bottom: 23px;
+}
+.secao-home-1 .ctd-secao-home {
+    padding-top: 80px;
+}
+.secao-home-2 {
+    width: 360px;
+    padding-left: 40px;
+}
+.secao-home-3 {
+    float: right;
+    width: 350px;
+    margin: 114px 0 -133px 0;
+    padding: 0 25px 0 50px;
+    box-sizing: border-box;
+}
+.secao-home-4 {
+    padding-left: 25px;
+    margin-top: -251px;
+    width: 310px;
+}
+.secao-home-5 {
+    width: 300px;
+    padding-left: 45px;
+    float: right;
+    margin-top: -32px;
+}
+.secao-home::after{
+    content:'';
+    display:block;
+    position:absolute;
+}
+.secao-home-1::after {
+    background:url(../imagens/linha-por-que-existimos.png);
+    width:149px;
+    height: 548px;
+    top: 272px;
+    right: 334px;
+}
+.secao-home-2::after {
+    background:url(../imagens/linha-verde.png);
+    width:229px;
+    height: 236px;
+    top: 264px;
+    right: -120px;
+}
+.secao-home-3::after {
+    background:url(../imagens/linha_como-fazemos.png);
+    width:321px;
+    height:282px;
+    top: 268px;
+    right: 20px;
+}
+.secao-home-4::after {
+    background:url(../imagens/linha-etapa.png);
+    width:418px;
+    height:113px;
+    top: 249px;
+    right: -170px;
+}
+.secao-home-5::after {
+    background:url(../imagens/linha-pensar.png);
+    width:358px;
+    height:268px;
+    top: 30px;
+    left: -183px;
+}
+/* chamada */
+.chamada-topo {
+    background-image: url(../imagens/chamada-como-fazemos.png);
+    height: 250px;
+}
+.page-home .chamada-topo{
+    background-image: url(../imagens/chamada-home.png);
+    height: 434px;
+}
+.page-quem-somos .chamada-topo{
+    background-image: url(../imagens/chamada-quem-somos.png);
+}
+.page-pq-existimos .chamada-topo{
+    background-image: url(../imagens/chamada-pq-existimos.png);
+}
+.page-nossos-clientes .chamada-topo{
+    background-image: url(../imagens/chamada-nossos-clientes.png);
+}
+.page-fale-conosco .chamada-topo{
+    background-image: url(../imagens/chamada-fale-conosco.png);
+    height: 256px;
+}
+.chamada-bottom-encaixa {
+    margin-bottom: -44px;
+    position: relative;
+    z-index: 2;
+}
+#chamada-fale-conosco {
+    background-image: url(../imagens/fundo-fale-conosco.png);
+    height: 374px;
+    text-align: center;
+}
+#link-fale-conosco {
+    background: url(../imagens/btn-fale-conosco.png);
+    height: 71px;
+    width: 460px;
+    display: inline-block;
+    margin-top: 140px;
+}
+#chamada-newsletter {
+     color: white;
+     background-image: url(../imagens/fundo-email-mkt.png);
+     text-align: center;
+     padding: 110px 0 0;
+     height: 350px;
+     box-sizing: border-box;
+ }
+/* rodape */
+#rodape {
+    background: url(../imagens/rodape-branco.png) top center no-repeat;
+    padding-top: 70px;
+    margin-top: -45px;
+}
+#link-contato-rodape {
+    float: left;
+    width: 130px;
+    height: 50px;
+    background: url(../imagens/btn-contato-rodape.png);
+}
+#menu-rodape {
+    font-size: 14px;
+    float: left;
+    margin: 16px 22px 0;
+    color: #8a8c8f;
+}
+.link-rodape {
+    color: #8a8c8f;
+}
+#redes-social {
+    float: right;
+}
+#redes-social span {
+    font-size: 22px;
+    color: #277ac9;
+    font-weight: bold;
+    float: left;
+    margin: 10px 10px 0 0;
+}
+#linkedin-btn, #facebook-btn{
+    background-image: url(../imagens/btn-sociais.png);
+    height: 50px;
+    float: left;
+}
+#facebook-btn{
+    width: 47px;
+}
+#linkedin-btn {
+    background-position: -47px 0;
+    width: 46px;
+}
+#copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #8a8c8f;
+    margin: 10px 0 15px;
+}
