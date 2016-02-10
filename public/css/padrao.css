@@ -2,6 +2,7 @@
 body{
     margin:0;
     padding-top: 178px;
+    color: #8a8c8f;
     font:20px/1.2 'Maven Pro', sans-serif;
 }
 a {
@@ -44,6 +45,11 @@ a:hover{
 }
 .chamada {
     background:  top center no-repeat;
+}
+.titulos {
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
 }
 /* topo */
 #topo-principal{
@@ -294,6 +300,78 @@ a:hover{
      height: 350px;
      box-sizing: border-box;
  }
+/* Por que existimos */
+.ctd-pg {
+    width: 736px;
+    margin: 0 auto 120px;
+    text-align: center;
+}
+#razoes-container {
+    width: 830px;
+    margin: 70px auto 50px;
+}
+.icone-pq-existimos {
+    background: url(../imagens/icones-baloes.png);
+    width: 923px;
+    height: 496px;
+    margin: 100px auto 80px;
+}
+.icone-container {
+    width: 210px;
+    height: 210px;
+    border-radius: 120px;
+    border: 2px solid;
+}
+.icone-container .icone {
+    display: inline-block;
+    margin-top: 64px;
+}
+.razao {
+    text-align: center;
+    width: 214px;
+    display: inline-block;
+    height: 298px;
+    margin: 0 30px;
+    float: left;
+}
+.razao h1 {
+    font-size: 23px;
+    font-weight: normal;
+    margin: 10px;
+}
+.razao-0 .icone {
+    background: url(../imagens/icone-setas.png);
+    width: 102px;
+    height: 78px;
+}
+.razao-1 .icone {
+    background: url(../imagens/icone-caderno.png);
+    width:83px;
+    height: 82px;
+}
+.razao-2 .icone {
+    background: url(../imagens/icone-people.png);
+    width: 79px;
+    height: 93px;
+    margin-top: 54px;
+}
+.razao-3 .icone {
+    background: url(../imagens/icone-tempo.png);
+    width: 84px;
+    height: 85px;
+}
+.razao-4 .icone {
+    background: url(../imagens/icone-graficos.png);
+    width: 83px;
+    height: 81px;
+}
+.razao.razao-3 {
+    margin-left: 150px;
+}
+.page-pq-existimos #link-fale-conosco {
+    background: url(../imagens/btn-saiba-como-fazemos.png);
+    width: 583px;
+}
 /* rodape */
 #rodape {
     background: url(../imagens/rodape-branco.png) top center no-repeat;
