@@ -31,6 +31,9 @@ a:hover{
 .cor-azul-2{
     color:#40b4f0;
 }
+.cor-azul-3 {
+    color: #2679c9;
+}
 .cor-verde{
     color:#94bc19;
 }
@@ -137,19 +140,19 @@ a:hover{
     margin-left: -40px;
     height: 215px;
 }
-.secao-home-3 .icone-secao-home {
+.secao-home-3 .icone-secao-home, .item-central-como-fazemos-2 .icone-secao-home{
     background: url(../imagens/icone-posicionamento.png);
     width: 318px;
     height: 220px;
     margin: 0 0 20px -50px;
 }
-.secao-home-4 .icone-secao-home {
+.secao-home-4 .icone-secao-home, .item-central-como-fazemos-3 .icone-secao-home{
     background: url(../imagens/icone-etapa.png);
     width: 281px;
     height: 310px;
     margin-left: -25px;
 }
-.secao-home-5 .icone-secao-home {
+.secao-home-5 .icone-secao-home, .item-central-como-fazemos-7 .icone-secao-home{
     background: url(../imagens/icone-pensar.png);
     width: 302px;
     height: 247px;
@@ -371,6 +374,219 @@ a:hover{
 .page-pq-existimos #link-fale-conosco {
     background: url(../imagens/btn-saiba-como-fazemos.png);
     width: 583px;
+}
+/* como fazemos */
+.borda-azul {
+    border: 2px solid #40b4f0;
+    border-radius: 430px;
+}
+.item-central-como-fazemos {
+    margin: 0 auto;
+    width: 695px;
+}
+.item-central-como-fazemos-2 {
+    width: 835px;
+    margin-bottom: 110px;
+}
+.item-central-como-fazemos .icone-secao-home {
+    float: left;
+    margin: 0 30px 0 0;
+}
+.itens-borda-azul {
+    width: 140px;
+    height: 140px;
+}
+.titulo-itens-borda {
+    color: #40b4f0;
+    margin: 0;
+    text-align: center;
+    font-size: 21px;
+}
+.itens-borda-azul .icone {
+    background: url(../imagens/icone-lupa.png) no-repeat center center;
+    display: block;
+    margin: 32px auto 5px;
+    width: 37px;
+    height: 34px;
+}
+.itens-borda-azul-0 .icone {
+    background-image: url(../imagens/icone-lupa.png);
+}
+.itens-borda-azul-1 .icone {
+    background-image: url(../imagens/icone-oculos.png);
+}
+.itens-borda-azul-2 .icone {
+    background-image: url(../imagens/icone-luz.png);
+}
+.itens-borda-azul-3 .icone {
+    background-image: url(../imagens/icone-imac.png);
+}
+.itens-borda-azul-4 .icone {
+    background-image: url(../imagens/icone-note.png);
+}
+.itens-borda-azul-5 .icone {
+    background-image: url(../imagens/icone-lapis.png);
+}
+.item-central-como-fazemos .borda-azul {
+     width: 210px;
+     height: 210px;
+     float: left;
+     margin-right: 20px;
+ }
+.item-central-como-fazemos-9 .icone-como-fazemos {
+    background:url(../imagens/icone-marketing-outsourcing.png);
+    width:77px;
+    height:90px;
+}
+.item-central-como-fazemos-10 .icone-como-fazemos {
+    background:url(../imagens/icone-marketing-mentoring.png);
+    width:80px;
+    height:82px;
+}
+.icone-como-fazemos{
+    margin: 60px auto 0;
+}
+.item-central-como-fazemos .titulos {
+     text-align: left;
+}
+.item-central-como-fazemos-2 .titulos {
+    font-weight: bold;
+}
+.item-como-fazemos-etapas{
+    margin: 70px auto;
+}
+.item-como-fazemos-etapas .titulos, .item-central-como-fazemos-7 .titulos {
+    font-weight: bold;
+    margin: 0;
+}
+.item-como-fazemos-etapas h2.titulos {
+    font-size: 30px;
+}
+.item-como-fazemos-etapas h1.titulos {
+    font-size: 42px;
+    margin-bottom: 5px;
+}
+.item-central-como-fazemos-3 {
+    padding-top: 135px;
+}
+.item-central-como-fazemos-3 .icone-secao-home {
+    margin-top: -135px;
+}
+.item-central-como-fazemos-7{
+    padding-top: 90px;
+    width: 690px;
+}
+.item-central-como-fazemos-7 .icone-secao-home {
+    margin-top: -90px;
+}
+.item-como-fazemos {
+    width: 220px;
+    float: left;
+    font-size: 18px;
+}
+.item-como-fazemos .titulos {
+    text-align: left;
+    color: #5a8ccb;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.container-itens-como-fazemos .borda-azul {
+    width: 210px;
+    height: 210px;
+    margin: 0 auto;
+}
+.container-itens-como-fazemos .icone-como-fazemos {
+    background: url(../imagens/icone-calendar.png) no-repeat center center;
+    width: 96px;
+    height: 87px;
+}
+.item-como-fazemos-1 .icone-como-fazemos {
+    background-image: url(../imagens/icone-flor.png);
+}
+.item-como-fazemos-2 .icone-como-fazemos {
+    background-image: url(../imagens/icone-money.png);
+}
+.bolinha-mais-igual {
+     float: left;
+     margin: 80px 20px 0;
+     background: #40b4f0;
+     color: white;
+     width: 60px;
+     height: 60px;
+     font:bold 35px/1.2 Arial;
+     padding-top: 9px;
+     border-radius: 30px;
+     text-align: center;
+     box-sizing: border-box;
+}
+.container-itens-como-fazemos {
+    width: 860px;
+    margin: 0 auto;
+}
+.borda-dotted {
+     border-style: dotted;
+}
+.borda-dotted-1{
+    width: 625px;
+    height: 625px;
+}
+.borda-dotted-2{
+    width: 508px;
+    height: 508px;
+}
+.borda-azul-3{
+    width: 406px;
+    height: 406px;
+    box-sizing: border-box;
+    padding: 35px 50px 0;
+    text-align: center;
+    font-size: 18px;
+}
+.borda-azul-ctd{
+    margin:0 auto;
+}
+.borda-azul-3 .titulos {
+    font-size: 26px;
+}
+.borda-azul-3 .titulos {
+     font-size: 26px;
+}
+.itens-borda-azul {
+    float: left;
+    background: white;
+}
+.itens-borda-azul-3, .itens-borda-azul-4, .itens-borda-azul-5{
+    float:right;
+}
+.itens-borda-azul-0 {
+    margin: -453px 0 0 120px;
+}
+.itens-borda-azul-1 {
+    margin: -238px 0 0 155px;
+}
+.itens-borda-azul-2 {
+    margin: -99px 0 0 305px;
+}
+.itens-borda-azul-3 {
+    margin: -99px 300px 0 0;
+}
+.itens-borda-azul-4 {
+    margin: -293px 145px 0 0;
+}
+.itens-borda-azul-5 {
+    margin: -498px 120px 0 0;
+}
+.item-como-fazemos-formatos {
+     margin-bottom: 70px;
+     padding-top: 50px;
+}
+.item-como-fazemos-formatos .titulos {
+    font-size: 42px;
+    margin: 0 0 18px;
+    font-weight: bold;
+}
+.item-como-fazemos-formatos .borda-azul {
+    margin-top: -50px;
 }
 /* rodape */
 #rodape {
