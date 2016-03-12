@@ -14,6 +14,7 @@
 Route::get('/', 'HomeController@index');
 Route::get('/por-que-existimos', 'PorQueExistimos@pagina');
 Route::get('/como-fazemos', 'ComoFazemos@pagina');
+Route::get('/quem-somos', 'QuemSomosController@pagina');
 
 /*
 |--------------------------------------------------------------------------

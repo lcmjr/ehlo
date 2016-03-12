@@ -4,7 +4,7 @@
 @section('classe-pg', 'page-como-fazemos')
 @section('conteudo')
     <div class="central">
-        <section class="item-central-como-fazemos item-central-como-fazemos-2">
+        <section class="item-central item-central-como-fazemos-2">
             <div class="icone-secao-home"></div>
             <div class="ctd-como-fazemos">
                 <h1 class="titulos cor-azul-3"><?= $data_view['textos'][2]['texto'];?></h1>
@@ -12,7 +12,7 @@
             <div class="clear"></div>
         </section>
         <h1 class="titulos">Atuamos em <b>duas etapas:</b></h1>
-        <section class="item-central-como-fazemos item-central-como-fazemos-3 item-como-fazemos-etapas">
+        <section class="item-central item-central-como-fazemos-3 item-como-fazemos-etapas">
             <div class="icone-secao-home"></div>
             <div class="ctd-como-fazemos">
                 <h2 class="titulos cor-azul-2">Etapa I</h2>
@@ -41,7 +41,7 @@
             }?>
             <div class="clear"></div>
         </section>
-        <section class="item-central-como-fazemos item-central-como-fazemos-7 item-como-fazemos-etapas">
+        <section class="item-central item-central-como-fazemos-7 item-como-fazemos-etapas">
             <div class="icone-secao-home"></div>
             <div class="ctd-como-fazemos">
                 <h2 class="titulos cor-azul-2">Etapa II</h2>
@@ -66,7 +66,7 @@
         @endforeach
         <div class="clear"></div>
         <h1 class="titulos" style="margin: 110px 0 70px;">Aplicamos essas duas etapas <br/><b>nos formatos:</b></h1>
-        <section class="item-central-como-fazemos item-central-como-fazemos-9 item-como-fazemos-formatos">
+        <section class="item-central item-central-como-fazemos-9 item-como-fazemos-formatos">
             <div class="borda-azul">
                 <div class="icone-como-fazemos"></div>
             </div>
@@ -76,7 +76,7 @@
             </div>
             <div class="clear"></div>
         </section>
-        <section class="item-central-como-fazemos item-central-como-fazemos-10 item-como-fazemos-formatos">
+        <section class="item-central item-central-como-fazemos-10 item-como-fazemos-formatos">
             <div class="borda-azul">
                 <div class="icone-como-fazemos"></div>
             </div>

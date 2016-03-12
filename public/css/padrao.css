@@ -134,7 +134,7 @@ a:hover{
     height: 236px;
     margin: 0 30px 0 0;
 }
-.secao-home-2 .icone-secao-home {
+.secao-home-2 .icone-secao-home, .item-central-quem-somos .icone-secao-home{
     background: url(../imagens/icones-quem-somos.png);
     width: 328px;
     margin-left: -40px;
@@ -380,7 +380,7 @@ a:hover{
     border: 2px solid #40b4f0;
     border-radius: 430px;
 }
-.item-central-como-fazemos {
+.item-central {
     margin: 0 auto;
     width: 695px;
 }
@@ -388,7 +388,7 @@ a:hover{
     width: 835px;
     margin-bottom: 110px;
 }
-.item-central-como-fazemos .icone-secao-home {
+.item-central .icone-secao-home {
     float: left;
     margin: 0 30px 0 0;
 }
@@ -427,7 +427,7 @@ a:hover{
 .itens-borda-azul-5 .icone {
     background-image: url(../imagens/icone-lapis.png);
 }
-.item-central-como-fazemos .borda-azul {
+.item-central .borda-azul {
      width: 210px;
      height: 210px;
      float: left;
@@ -446,7 +446,7 @@ a:hover{
 .icone-como-fazemos{
     margin: 60px auto 0;
 }
-.item-central-como-fazemos .titulos {
+.item-central .titulos {
      text-align: left;
 }
 .item-central-como-fazemos-2 .titulos {
@@ -587,6 +587,68 @@ a:hover{
 }
 .item-como-fazemos-formatos .borda-azul {
     margin-top: -50px;
+}
+/* quem somos */
+.item-central-quem-somos {
+    width: 810px;
+    text-align: center;
+}
+.item-central-quem-somos .titulos {
+    text-align: center;
+}
+.ctd-quem-somos .titulos {
+    font-weight: bold;
+    margin: 0;
+}
+.item-central-quem-somos {
+    padding-top: 80px;
+}
+.item-central-quem-somos .icone-secao-home {
+    margin: -82px 30px 30px 0;
+}
+.btn-linkedin {
+    display: block;
+    height: 50px;
+    margin-top: 20px;
+}
+.btn-linkedin::before {
+    content: '';
+    background: url(../imagens/btn-linkedin.png);
+    width: 51px;
+    height: 50px;
+    margin: 0 10px -18px 0;
+    display: inline-block;
+}
+.equipe-diretoras {
+    width: 45%;
+    float: left;
+}
+.equipe .titulos {
+    text-align: left;
+}
+.container-equipe-img {
+    float: left;
+    margin-right: 40px;
+}
+.equipe {
+    clear: both;
+    margin-bottom: 90px;
+}
+.equipe.equipe-diretoras {
+    clear: none;
+    margin-bottom: 150px;
+}
+#container-equipe .equipe-diretoras:first-child {
+    margin-right: 10%;
+}
+.equipe-diretoras .ctd-txt-equipe {
+    min-height:120px;
+}
+.equipe-diretoras .ctd-equipe {
+    clear: both;
+}
+#container-equipe {
+    margin-top: 80px;
 }
 /* rodape */
 #rodape {
