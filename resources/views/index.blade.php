@@ -11,7 +11,7 @@
         $cor[5] = 'cor-azul-2';
         ?>
         @foreach($secoes_home as $secao)
-            <section class="secao-home secao-home-{{$secao->id}} <?php echo $cor[$secao->id]; ?>">
+            <section class="secao-home secao-home-{{$secao->id}} <?php echo $cor[$secao->id]; ?> anima-entrada">
                 <div class="icone-secao-home"></div>
                 @if($secao->id > 1)<a class="link-secao-home"></a>@endif
                 <div class="ctd-secao-home"><?= $secao->texto;?></div>

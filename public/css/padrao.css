@@ -722,3 +722,43 @@ a:hover{
     color: #8a8c8f;
     margin: 10px 0 15px;
 }
+/* animações */
+.secao-home::after, .secao-home>*{
+    opacity: 0;
+}
+/* X positivo */
+.secao-home-1 .ctd-secao-home,.secao-home-1 .link-secao-home,.secao-home-3 .ctd-secao-home, .secao-home-3 .icone-secao-home, .secao-home-5 .icone-secao-home, .secao-home-5::after,.secao-home-5 .link-secao-home{
+    transform: translateX(100px);
+}
+/* X negativo */
+.secao-home-1 .icone-secao-home, .secao-home-2 .ctd-secao-home, .secao-home-2 .link-secao-home, .secao-home-2::after, .secao-home-4::after, .secao-home-3 .link-secao-home, .secao-home-4 .link-secao-home{
+    transform: translateX(-100px);
+}
+/* X */
+.secao-home-1.anima-start .ctd-secao-home,.secao-home-1.anima-start .link-secao-home,.secao-home-3.anima-start .ctd-secao-home, .secao-home-3.anima-start .icone-secao-home, .secao-home-5.anima-start .icone-secao-home, .secao-home-5.anima-start::after,.secao-home-5.anima-start .link-secao-home, .secao-home-1.anima-start .icone-secao-home, .secao-home-2.anima-start .ctd-secao-home,.secao-home-2.anima-start .link-secao-home, .secao-home-2.anima-start::after, .secao-home-4.anima-start::after,.secao-home-3.anima-start .link-secao-home,.secao-home-4.anima-start .link-secao-home{
+    animation: anima-x 2s ease forwards;
+}
+/* Y positivo */
+.secao-home-1::after, .secao-home-3::after, .secao-home-4 .icone-secao-home, .secao-home-5 .ctd-secao-home{
+    transform: translateY(100px);
+}
+/* Y negativo */
+.secao-home-2 .icone-secao-home, .secao-home-4 .ctd-secao-home{
+    transform: translateY(-100px);
+}
+/* Y */
+.secao-home-1.anima-start::after, .secao-home-3.anima-start::after, .secao-home-4.anima-start .icone-secao-home, .secao-home-5.anima-start .ctd-secao-home, .secao-home-2.anima-start .icone-secao-home, .secao-home-4.anima-start .ctd-secao-home{
+    animation: anima-y 2s ease forwards;
+}
+@keyframes anima-y {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes anima-x {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
