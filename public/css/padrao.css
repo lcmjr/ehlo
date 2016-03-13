@@ -82,7 +82,7 @@ a:hover{
     margin: 0 10px -55px;
 }
 #topo-principal::after, #topo-principal::before {
-    background: url(../imagens/barra-menu.png) top center;
+    background: url(../imagens/barra-menu.png) top center no-repeat;
     content: '';
     display: block;
 }
@@ -295,6 +295,8 @@ a:hover{
 }
 .page-nossos-clientes .chamada-topo{
     background-image: url(../imagens/chamada-nossos-clientes.png);
+    position: relative;
+    z-index: 2;
 }
 .page-fale-conosco .chamada-topo{
     background-image: url(../imagens/chamada-fale-conosco.png);
@@ -671,6 +673,116 @@ a:hover{
 }
 #container-equipe {
     margin-top: 80px;
+}
+/* Nossos Clientes */
+.cliente {
+    border: 5px solid #e2e2e2;
+    display: inline-block;
+    border-radius: 110px;
+    overflow: hidden;
+    margin: 20px;
+    background: #e2e2e2;
+    width: 185px;
+    height: 185px;
+}
+.cliente img {
+    width: 100%;
+    height: auto;
+}
+.container-banner {
+    width: 1800px;
+    margin: -50px auto 0;
+    position: relative;
+}
+#logo-banner {
+    margin-top: -110px;
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+}
+.container-imagens {
+     height: 701px;
+     overflow: hidden;
+}
+.container-imagens img {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#resumo-banner {
+    position: absolute;
+    top: 80px;
+    z-index: 10;
+    opacity: 0;
+    font-size:28px;
+    font-weight:bold;
+    color: white;
+    width: 570px;
+    right: 20%;
+}
+.nome-pessoa {
+    font-size:20px;
+}
+.nome-empresa {
+    font-size:18px;
+    font-weight:normal;
+}
+#resumo-banner::after, #resumo-banner::before{
+    content:'';
+    display:block;
+    width: 69px;
+    height: 54px;
+}
+#resumo-banner::after{
+    background:url(../imagens/aspas-direita.png);
+    float: right;
+    margin-top: -30px;
+}
+#resumo-banner::before{
+    background:url(../imagens/aspas-esquerda.png);
+}
+.leia-mais-clientes{
+    color:#fbf200;
+}
+.setas-banner {
+    width: 51px;
+    cursor: pointer;
+    height: 51px;
+}
+#seta-esquerda{
+    background: url("../imagens/seta-esquerda.png");
+    float: left;
+}
+#seta-direita{
+    background: url("../imagens/seta-direita.png");
+    float: right;
+}
+#container-setas {
+    float: right;
+    width: 110px;
+    margin-top: -70px;
+    position: relative;
+    z-index: 2;
+}
+.container-banner-depoimento #logo-banner, .container-banner-depoimento img{
+    opacity: 1;
+}
+.ctd-depoimento-txt p b {
+    color: #fd8e09;
+    font-size: 25px;
+}
+.ctd-depoimento-txt {
+    font-size: 18px;
+}
+.ctd-depoimento-txt p b {
+    color: #fd8e09;
+    font-size: 25px;
+}
+.ctd-depoimento-txt {
+    font-size: 18px;
 }
 /* rodape */
 #formulario-newsletter input{

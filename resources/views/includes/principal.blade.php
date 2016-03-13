@@ -2,11 +2,13 @@
 <html>
 <head>
     <title>Ehlo @yield('title')</title>
+    <base href="http://localhost:8000/"/>
     <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,700' rel='stylesheet' type='text/css'>
     <link href='css/padrao.css' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script type="text/javascript" src="js/visible.js"></script>
     <script type="text/javascript" src="js/padrao.js"></script>
+    @yield('javascript')
 </head>
 <body class="@yield('classe-pg')">
 <header id="topo-principal">
