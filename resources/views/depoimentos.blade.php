@@ -1,9 +1,8 @@
 @extends('includes.principal')
 
-@section('title', '- Nossos Clientes')
+@section('title', '- Depoimento - '.$data_view['cliente-principal']['nome_empresa'])
 @section('classe-pg', 'page-nossos-clientes')
 @section('conteudo')
-    <?php $cliente = $data_view['cliente-principal'];?>
     <div class="container-banner container-banner-depoimento">
         <div class="container-imagens"><img src="uploads/{{$data_view['cliente-principal']['foto_fundo']}}" alt="{{$data_view['cliente-principal']['nome_empresa']}}"/></div>
         <div class="central">
