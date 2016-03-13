@@ -54,6 +54,16 @@ a:hover{
     font-weight: normal;
     text-align: center;
 }
+.ipt-submit-reset, .ipt-reset{
+    font: 20px/1.2 'Maven Pro', sans-serif;
+    border: none;
+}
+.ipt-reset {
+    padding: 5px;
+}
+.ipt-submit-reset {
+    cursor: pointer;
+}
 /* topo */
 #topo-principal{
     text-align: center;
@@ -201,8 +211,8 @@ a:hover{
 .secao-home-3 {
     float: right;
     width: 350px;
-    margin: 114px 0 -133px 0;
-    padding: 0 25px 0 50px;
+    margin: 116px 0 -133px 0;
+    padding: 0 25px 5px 50px;
     box-sizing: border-box;
 }
 .secao-home-4 {
@@ -225,7 +235,7 @@ a:hover{
     background:url(../imagens/linha-por-que-existimos.png);
     width:149px;
     height: 548px;
-    top: 272px;
+    top: 268px;
     right: 334px;
 }
 .secao-home-2::after {
@@ -651,6 +661,19 @@ a:hover{
     margin-top: 80px;
 }
 /* rodape */
+#formulario-newsletter input{
+    padding: 18px 35px;
+}
+#formulario-newsletter input[type=text] {
+    border-radius: 40px 0 0 40px;
+    width: 450px;
+    margin-right: -40px;
+}
+#formulario-newsletter input[type=submit] {
+    border-radius: 0 40px 40px 0;
+    background: url(../imagens/fundo-btn-cadastrar.png) left top no-repeat #FDA40A;
+    color: white;
+}
 #rodape {
     background: url(../imagens/rodape-branco.png) top center no-repeat;
     padding-top: 70px;
