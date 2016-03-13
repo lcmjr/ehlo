@@ -77,6 +77,7 @@ a:hover{
     background: url(../imagens/logo-menu.png);
     width: 148px;
     height: 169px;
+    transition: 0.25s;
     display: inline-block;
     margin: 0 10px -55px;
 }
@@ -91,6 +92,7 @@ a:hover{
 #topo-principal::after {
     background-image: url(../imagens/barra-menu-bottom.png);
     height: 45px;
+    transition: 0.25s;
     margin: 43px 0 -44px;
 }
 .link-menu{
@@ -122,6 +124,16 @@ a:hover{
 }
 .link-menu.cor-cinza::before{
     background-image: url(../imagens/gota-cinza.png);
+}
+#topo-principal.topo-scroll::after{
+    background-image: url(../imagens/barra-menu-bottom-2.png);
+    margin-top: 15px;
+}
+.topo-scroll .logo-topo {
+    background: url(../imagens/logo-menu-reduzido.png);
+    width: 106px;
+    height: 105px;
+    margin: 0 10px -25px;
 }
 /* home */
 .secao-home {

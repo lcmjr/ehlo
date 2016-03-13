@@ -7,4 +7,10 @@ $(window).scroll(function(event) {
             el.removeClass("anima-start");
         }
     });
+
+    if($(window).scrollTop()>100){
+        $("#topo-principal").addClass("topo-scroll");
+    }else{
+        $("#topo-principal").removeClass("topo-scroll");
+    }
 });
