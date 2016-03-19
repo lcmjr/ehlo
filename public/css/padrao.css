@@ -211,7 +211,7 @@ a:hover{
 .secao-home-1 {
     float: right;
     width: 762px;
-    margin-bottom: 23px;
+    margin-bottom: 21px;
 }
 .secao-home-1 .ctd-secao-home {
     padding-top: 80px;
@@ -224,7 +224,7 @@ a:hover{
     float: right;
     width: 350px;
     margin: 116px 0 -133px 0;
-    padding: 0 25px 5px 50px;
+    padding: 0 25px 0px 50px;
     box-sizing: border-box;
 }
 .secao-home-4 {
@@ -247,7 +247,7 @@ a:hover{
     background:url(../imagens/linha-por-que-existimos.png);
     width:149px;
     height: 548px;
-    top: 268px;
+    top: 272px;
     right: 334px;
 }
 .secao-home-2::after {
