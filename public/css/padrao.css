@@ -74,7 +74,7 @@ a:hover{
     z-index: 100;
 }
 .logo-topo{
-    background: url(../imagens/logo-menu.png);
+    background: url(../imagens/logo-menu.png) center center no-repeat;
     width: 148px;
     height: 169px;
     transition: 0.25s;
@@ -130,7 +130,7 @@ a:hover{
     margin-top: 15px;
 }
 .topo-scroll .logo-topo {
-    background: url(../imagens/logo-menu-reduzido.png);
+    background-image: url(../imagens/logo-menu-reduzido.png);
     width: 106px;
     height: 105px;
     margin: 0 10px -25px;
@@ -323,7 +323,7 @@ a:hover{
      color: white;
      background-image: url(../imagens/fundo-email-mkt.png);
      text-align: center;
-     padding: 110px 0 0;
+     padding: 80px 0 0;
      height: 350px;
      box-sizing: border-box;
  }
@@ -783,6 +783,98 @@ a:hover{
 }
 .ctd-depoimento-txt {
     font-size: 18px;
+}
+/* Fale Conosco */
+#form-fale-conosco {
+     width: 780px;
+     margin: 0 auto;
+ }
+#form-fale-conosco .ipt-reset, #form-fale-conosco select {
+    width: 48%;
+    border: 2px solid #8a8c8f;
+    padding: 20px 30px;
+    font: 20px/1.2 'Maven Pro', sans-serif;
+    color: #8a8c8f;
+    border-radius: 40px;
+    box-sizing: border-box;
+    margin: 0 0 15px;
+}
+#form-fale-conosco select {
+    text-align: left;
+    background: url(../imagens/seta-select.png) no-repeat 330px center #ebebeb;
+    -webkit-appearance: none;
+    color: #6d6d6e;
+    -moz-appearance: none;
+    appearance: none;
+}
+#marcador-maps, #icone-envelope {
+    display: inline-block;
+}
+#icone-envelope {
+    background: url(../imagens/icone-envelope.png);
+    width: 76px;
+    height: 79px;
+    margin-top: 50px;
+}
+#form-fale-conosco{
+    background: url(../imagens/form-contato-linha.png) top left no-repeat;
+    text-align: justify;
+    padding: 60px 52px 0 0;
+}
+#fale-conosco-msg {
+    height: 242px;
+    margin: 0!important;
+}
+#maps {
+    background: url(../imagens/mapa.png) center center no-repeat;
+    max-width: 1800px;
+    margin: 0 auto -43px;
+    height: 634px;
+}
+#marcador-maps {
+    background: url(../imagens/mapa-icon.png);
+    width: 88px;
+    margin-top: 105px;
+    height: 99px;
+}
+.page-fale-conosco .ctd-pg {
+    margin-bottom: 0;
+    width: 830px;
+}
+#drop-arquivos-container {
+    margin: 0 31px 0 0!important;
+    float: left;
+    height: 242px;
+    text-align: center;
+    border-style: dashed!important;
+}
+p#arquivos-paragrafo-1 {
+    margin: 0 0 0 0;
+    text-align: left;
+}
+#arquivos-paragrafo-2 {
+    font-size: 18px;
+    margin-top: 35px;
+    font-style: italic;
+}
+#arquivos-paragrafo-2 span {
+    font-style: normal;
+    font-size: 13px;
+    display: block;
+    margin-top: 15px;
+}
+#preenche-obrigatorio {
+    margin-left: 30px;
+    font-style: italic;
+}
+#enviar-form {
+    background: url(../imagens/btn-enviar.png);
+    width: 291px;
+    height: 61px;
+    border: none;
+    margin: 25px auto 0;
+    cursor: pointer;
+    display: block;
 }
 /* rodape */
 #formulario-newsletter input{
