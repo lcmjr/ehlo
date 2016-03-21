@@ -26,4 +26,45 @@
         <div class="clear"></div>
     </div>
     @include('includes.chamada-fale-conosco')
+    <div id="home-blog-clientes">
+        <div class="central">
+            <section id="home-blog">
+                <div id="titulo-blog"></div>
+                <div class="post-blog-home">
+                    <div class="foto-blog-clientes-home"><div class="esconde-blog-clientes-home"><img src="uploads/foto-blog.jpg" alt=""/></div></div>
+                    <div class="ctd-post-blog">
+                        <h1 class="titulo-blog-home cor-roxo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h1>
+                        <p>nonummy nibh euismod tincidunt ut l aliquam erat volutpat euismod.</p>
+                    </div>
+                    <div class="clear"></div>
+                    <a href="#" class="btn-veja-mais btn-blog-home"></a>
+                </div>
+                <div class="post-blog-home">
+                    <div class="foto-blog-clientes-home"><div class="esconde-blog-clientes-home"><img src="uploads/foto-blog.jpg" alt=""/></div></div>
+                    <div class="ctd-post-blog">
+                        <h1 class="titulo-blog-home cor-roxo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam</h1>
+                        <p>nonummy nibh euismod tincidunt ut l aliquam erat volutpat euismod.</p>
+                    </div>
+                    <div class="clear"></div>
+                    <a href="#" class="btn-veja-mais btn-blog-home"></a>
+                </div>
+            </section>
+            <section id="home-clientes">
+                <div id="titulo-clientes-home"></div>
+                @foreach($clientes as $cliente)
+                    <div class="ctd-home-clientes">
+                        <div class="foto-blog-clientes-home"><div class="esconde-blog-clientes-home"><img width="126" height="126" src="uploads/{{$cliente->logo}}" alt=""/></div></div>
+                        <div class="ctd-post-clientes">
+                            <h1 class="titulo-clientes-home cor-laranja"><?php echo substr($cliente->resumo_depoimento, 0, strrpos(substr($cliente->resumo_depoimento, 0, 100), ' ')).'...';?></h1>
+                            <p>{{$cliente->nome_pessoa}}<br/>
+                                <b>{{$cliente->nome_empresa}}</b></p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                @endforeach
+                <a href="nossos-clientes" class="btn-veja-mais btn-clientes-home"></a>
+            </section>
+            <div class="clear"></div>
+        </div>
+    </div>
 @stop

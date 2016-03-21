@@ -278,6 +278,117 @@ a:hover{
     top: 30px;
     left: -183px;
 }
+#home-blog-clientes {
+    background: url(../imagens/fundo-ctd-home.png) no-repeat center top;
+    height: 914px;
+    margin-bottom: -44px;
+}
+#titulo-clientes-home {
+    background:url(../imagens/icone_aspas.png);
+    width: 336px;
+    height: 134px;
+    margin: 68px 0 27px;
+}
+#titulo-blog {
+    background:url(../imagens/as-ultimas-do-blog.png);
+    width: 272px;
+    height: 145px;
+    margin: 68px 0 15px;
+}
+.post-blog-home {
+    background: url(../imagens/linha-veja-mais-blog.png) right top no-repeat;
+    width: 405px;
+    height: 272px;
+}
+.foto-blog-clientes-home {
+    background:url(../imagens/fundo-foto-blog.png);
+    width: 140px;
+    height: 140px;
+}
+.foto-blog-clientes-home {
+    text-align: center;
+    float: left;
+    margin-top: 30px;
+}
+.titulo-blog-home {
+    font-size: 20px;
+    margin: 25px 0 10px 0;
+    line-height: 1.2;
+}
+.titulo-clientes-home {
+    font-size: 20px;
+    margin: 20px 0 10px;
+    overflow: hidden;
+    height: 110px;
+}
+.ctd-post-clientes {
+    font-size: 17px;
+    float: right;
+    width: 300px;
+    margin: 0 20px;
+}
+.ctd-home-clientes .foto-blog-clientes-home {
+    background: url(../imagens/fundo-foto-clientes.png);
+}
+#home-clientes {
+    background: url(../imagens/linha-veja-mais-depoimento.png) no-repeat right 228px;
+    float: right;
+}
+.esconde-blog-clientes-home {
+    overflow: hidden;
+    border-radius: 90px;
+    width: 126px;
+    height: 126px;
+    margin: 0 auto;
+    padding-top: 2px;
+}
+#home-blog {
+    float: left;
+}
+.ctd-post-blog {
+    float: right;
+    width: 230px;
+    margin-right: 10px;
+}
+.ctd-post-blog p {
+    margin: 0;
+    font-size: 18px;
+}
+.btn-veja-mais{
+    width: 165px;
+    height: 49px;
+    float: right;
+}
+.btn-veja-mais.btn-blog-home {
+    background-image: url(../imagens/btn-veja-mais-blog.png);
+    float: right;
+    margin: 24px 90px 0 0;
+}
+.btn-veja-mais.btn-clientes-home {
+    background-image: url(../imagens/btn-veja-mais-depoimento.png);
+    margin: -65px 167px 0 0;
+}
+.ctd-post-clientes p {
+    margin: 0;
+    height: 40px;
+    overflow: hidden;
+}
+.ctd-home-clientes {
+    margin-bottom: 84px;
+}
+.titulo-clientes-home::after,.titulo-clientes-home::before {
+    content: '';
+    display: inline-block;
+    width: 34px;
+    height: 26px;
+}
+.titulo-clientes-home::after{
+    background-image: url(../imagens/aspas-direita-home.png);
+}
+.titulo-clientes-home::before{
+    background-image: url(../imagens/aspas-esquerda-home.png);
+    margin-right: 7px;
+}
 /* chamada */
 .chamada-topo {
     background-image: url(../imagens/chamada-como-fazemos.png);
