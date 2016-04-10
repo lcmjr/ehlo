@@ -389,6 +389,9 @@ a:hover{
     background-image: url(../imagens/aspas-esquerda-home.png);
     margin-right: 7px;
 }
+.ctd-secao-home {
+    font-size: 20px;
+}
 /* chamada */
 .chamada-topo {
     background-image: url(../imagens/chamada-como-fazemos.png);
@@ -1053,12 +1056,12 @@ p#arquivos-paragrafo-1 {
 .secao-home::after, .secao-home>*{
     opacity: 0;
 }
-/* X positivo */
-.secao-home-1 .ctd-secao-home,.secao-home-1 .link-secao-home,.secao-home-3 .ctd-secao-home, .secao-home-3 .icone-secao-home, .secao-home-5 .icone-secao-home, .secao-home-5::after,.secao-home-5 .link-secao-home{
+/* X positivo
+ {
     transform: translateX(100px);
 }
 /* X negativo */
-.secao-home-1 .icone-secao-home, .secao-home-2 .ctd-secao-home, .secao-home-2 .link-secao-home, .secao-home-2::after, .secao-home-4::after, .secao-home-3 .link-secao-home, .secao-home-4 .link-secao-home{
+.secao-home-1 .ctd-secao-home,.secao-home-1 .link-secao-home,.secao-home-3 .ctd-secao-home, .secao-home-1 .icone-secao-home, .secao-home-2 .ctd-secao-home, .secao-home-2 .link-secao-home, .secao-home-2::after, .secao-home-4::after, .secao-home-3 .link-secao-home, .secao-home-4 .link-secao-home, .secao-home-5 .icone-secao-home, .secao-home-5::after,.secao-home-5 .link-secao-home,.secao-home-3 .icone-secao-home{
     transform: translateX(-100px);
 }
 /* X */
@@ -1087,5 +1090,45 @@ p#arquivos-paragrafo-1 {
     to {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+/* Media Queries */
+@media (max-width: 1200px) {
+    body {
+        font-size: 13px;
+        padding-top: 108px;
+    }
+    .logo-topo {
+        background-image: url(../imagens/responsivo/1024/logo.png);
+        width: 85px;
+        height: 96px;
+        margin: 0 10px -30px;
+    }
+    .topo-scroll .logo-topo {
+        background-image: url(../imagens/responsivo/1024/logo-menu-reduzido.png);
+        width: 59px;
+        height: 60px;
+        margin: 0px 10px -10px;
+    }
+    #topo-principal::after {
+        background-image: url(../imagens/responsivo/1024/barra-menu-bottom.png);
+        margin: 23px 0 -26px;
+        height: 26px;
+    }
+    #topo-principal::before {
+        background-image: url(../imagens/responsivo/1024/barra-menu.png);
+    }
+    #topo-principal.topo-scroll::after {
+        background-image: url(../imagens/responsivo/1024/barra-menu-bottom-2.png);
+        height: 29px;
+        margin: 10px 0 -29px 0px;
+    }
+    .link-menu {
+         width: 60px;
+         margin: 0 10px;
+     }
+    .page-home .chamada-topo {
+        background-image: url(../imagens/responsivo/1024/chamada-home.png);
+        height: 247px;
     }
 }
