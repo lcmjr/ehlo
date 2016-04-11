@@ -304,8 +304,6 @@ a:hover{
     background:url(../imagens/fundo-foto-blog.png);
     width: 140px;
     height: 140px;
-}
-.foto-blog-clientes-home {
     text-align: center;
     float: left;
     margin-top: 30px;
@@ -389,9 +387,6 @@ a:hover{
     background-image: url(../imagens/aspas-esquerda-home.png);
     margin-right: 7px;
 }
-.ctd-secao-home {
-    font-size: 20px;
-}
 /* chamada */
 .chamada-topo {
     background-image: url(../imagens/chamada-como-fazemos.png);
@@ -434,13 +429,13 @@ a:hover{
     margin-top: 140px;
 }
 #chamada-newsletter {
-     color: white;
-     background-image: url(../imagens/fundo-email-mkt.png);
-     text-align: center;
-     padding: 80px 0 0;
-     height: 350px;
-     box-sizing: border-box;
- }
+    color: white;
+    background-image: url(../imagens/fundo-email-mkt.png);
+    text-align: center;
+    padding: 80px 0 0;
+    height: 350px;
+    box-sizing: border-box;
+}
 /* Por que existimos */
 .ctd-pg {
     width: 736px;
@@ -566,11 +561,11 @@ a:hover{
     background-image: url(../imagens/icone-lapis.png);
 }
 .item-central .borda-azul {
-     width: 210px;
-     height: 210px;
-     float: left;
-     margin-right: 20px;
- }
+    width: 210px;
+    height: 210px;
+    float: left;
+    margin-right: 20px;
+}
 .item-central-como-fazemos-9 .icone-como-fazemos {
     background:url(../imagens/icone-marketing-outsourcing.png);
     width:77px;
@@ -585,7 +580,7 @@ a:hover{
     margin: 60px auto 0;
 }
 .item-central .titulos {
-     text-align: left;
+    text-align: left;
 }
 .item-central-como-fazemos-2 .titulos {
     font-weight: bold;
@@ -645,24 +640,24 @@ a:hover{
     background-image: url(../imagens/icone-money.png);
 }
 .bolinha-mais-igual {
-     float: left;
-     margin: 80px 20px 0;
-     background: #40b4f0;
-     color: white;
-     width: 60px;
-     height: 60px;
-     font:bold 35px/1.2 Arial;
-     padding-top: 9px;
-     border-radius: 30px;
-     text-align: center;
-     box-sizing: border-box;
+    float: left;
+    margin: 80px 20px 0;
+    background: #40b4f0;
+    color: white;
+    width: 60px;
+    height: 60px;
+    font:bold 35px/1.2 Arial;
+    padding-top: 9px;
+    border-radius: 30px;
+    text-align: center;
+    box-sizing: border-box;
 }
 .container-itens-como-fazemos {
     width: 860px;
     margin: 0 auto;
 }
 .borda-dotted {
-     border-style: dotted;
+    border-style: dotted;
 }
 .borda-dotted-1{
     width: 625px;
@@ -687,7 +682,7 @@ a:hover{
     font-size: 26px;
 }
 .borda-azul-3 .titulos {
-     font-size: 26px;
+    font-size: 26px;
 }
 .itens-borda-azul {
     float: left;
@@ -715,8 +710,8 @@ a:hover{
     margin: -498px 120px 0 0;
 }
 .item-como-fazemos-formatos {
-     margin-bottom: 70px;
-     padding-top: 50px;
+    margin-bottom: 70px;
+    padding-top: 50px;
 }
 .item-como-fazemos-formatos .titulos {
     font-size: 42px;
@@ -815,8 +810,8 @@ a:hover{
     opacity: 0;
 }
 .container-imagens {
-     height: 701px;
-     overflow: hidden;
+    height: 701px;
+    overflow: hidden;
 }
 .container-imagens img {
     width: 100%;
@@ -900,9 +895,9 @@ a:hover{
 }
 /* Fale Conosco */
 #form-fale-conosco {
-     width: 780px;
-     margin: 0 auto;
- }
+    width: 780px;
+    margin: 0 auto;
+}
 #form-fale-conosco .ipt-reset, #form-fale-conosco select {
     width: 48%;
     border: 2px solid #8a8c8f;
@@ -1095,40 +1090,326 @@ p#arquivos-paragrafo-1 {
 /* Media Queries */
 @media (max-width: 1200px) {
     body {
-        font-size: 13px;
-        padding-top: 108px;
+        font-size: 15px;
+        padding-top: 137px;
     }
     .logo-topo {
-        background-image: url(../imagens/responsivo/1024/logo.png);
-        width: 85px;
-        height: 96px;
-        margin: 0 10px -30px;
+        background-image: url(../imagens/responsivo/1350/logo.png);
+        width: 112px;
+        height: 126px;
+        margin: 0 10px -40px;
     }
     .topo-scroll .logo-topo {
-        background-image: url(../imagens/responsivo/1024/logo-menu-reduzido.png);
-        width: 59px;
-        height: 60px;
-        margin: 0px 10px -10px;
+        background-image: url(../imagens/responsivo/1350/logo-menu-reduzido.png);
+        width: 83px;
+        height: 93px;
+        margin: 0px 10px -30px;
     }
     #topo-principal::after {
-        background-image: url(../imagens/responsivo/1024/barra-menu-bottom.png);
-        margin: 23px 0 -26px;
-        height: 26px;
+        background-image: url(../imagens/responsivo/1350/barra-menu-bottom.png);
+        margin: 23px 0 -33px;
+        height: 33px;
     }
     #topo-principal::before {
-        background-image: url(../imagens/responsivo/1024/barra-menu.png);
+        background-image: url(../imagens/responsivo/1350/barra-menu.png);
     }
     #topo-principal.topo-scroll::after {
-        background-image: url(../imagens/responsivo/1024/barra-menu-bottom-2.png);
-        height: 29px;
-        margin: 10px 0 -29px 0px;
+        background-image: url(../imagens/responsivo/1350/barra-menu-bottom-reduzido.png);
+        height: 34px;
+        margin: 10px 0 -34px 0px;
     }
     .link-menu {
-         width: 60px;
-         margin: 0 10px;
-     }
+        width: 60px;
+        margin: 0 10px 10px;
+    }
     .page-home .chamada-topo {
-        background-image: url(../imagens/responsivo/1024/chamada-home.png);
-        height: 247px;
+        background-image: url(../imagens/responsivo/1350/chamada-home.png);
+        height: 327px;
+        margin-bottom: 50px;
+    }
+    /* seções home */
+    .secao-home-1 .icone-secao-home{
+        background-image: url(../imagens/responsivo/1350/chamada-home.png);
+    }
+    .secao-home-1 .icone-secao-home {
+        background: url(../imagens/responsivo/1350/icone-porque-existimos.png);
+        width: 307px;
+        height: 176px;
+        margin: 0 30px 0 0;
+    }
+    .secao-home-2 .icone-secao-home, .item-central-quem-somos .icone-secao-home{
+        background: url(../imagens/responsivo/1350/icone-quem-somos.png);
+        width: 247px;
+        margin-left: -40px;
+        height: 162px;
+    }
+    .secao-home-3 .icone-secao-home, .item-central-como-fazemos-2 .icone-secao-home{
+        background: url(../imagens/responsivo/1350/icone-como-fazemos.png);
+        width: 238px;
+        height: 165px;
+        margin: 0 0 20px -50px;
+    }
+    .secao-home-4 .icone-secao-home, .item-central-como-fazemos-3 .icone-secao-home{
+        background: url(../imagens/responsivo/1350/icone-etapa.png);
+        width: 227px;
+        height: 185px;
+        margin-left: -25px;
+    }
+    .secao-home-5 .icone-secao-home, .item-central-como-fazemos-7 .icone-secao-home{
+        background: url(../imagens/responsivo/1350/icone-pensar.png);
+        width: 211px;
+        height: 232px;
+    }
+    .secao-home-1 .link-secao-home{
+        background:url(../imagens/responsivo/1350/btn-por-que-existimos-home.png);
+        float: right;
+        margin: 25px 85px 0 -20px;
+        width: 192px;
+    }
+    .secao-home-2 .link-secao-home{
+        background:url(../imagens/responsivo/1350/btn-quem-somos.png);
+    }
+    .secao-home-3 .link-secao-home{
+        background:url(../imagens/responsivo/1350/btn-como-fazemos.png);
+    }
+    .secao-home-4 .link-secao-home{
+        background:url(../imagens/responsivo/1350/btn-etapa.png);
+    }
+    .secao-home-5 .link-secao-home{
+        background:url(../imagens/responsivo/1350/btn-formatos.png);
+    }
+    .secao-home-1::after {
+        background:url(../imagens/responsivo/1350/linha-rosa-home.png);
+        width:112px;
+        height: 428px;
+        top: 232px;
+        right: 239px;
+    }
+    .secao-home-2::after {
+        background:url(../imagens/responsivo/1350/linha-quem-somos.png);
+        width:173px;
+        height: 177px;
+        top: 212px;
+        right: -61px;
+    }
+    .secao-home-3::after {
+        background: url(../imagens/responsivo/1350/linha-como-fazemos.png) top right;
+        width: 226px;
+        height:212px;
+        top: 212px;
+        right: 20px;
+    }
+    .secao-home-4::after {
+        background:url(../imagens/responsivo/1350/linha-etapa.png);
+        width:314px;
+        height:84px;
+        top: 152px;
+        right: -41px;
+    }
+    .secao-home-5::after {
+        background:url(../imagens/responsivo/1350/linha-formatos.png);
+        width:269px;
+        height:201px;
+        top: 30px;
+        left: -51px;
+    }
+    #container-logo {
+        clear: both;
+        width: 227px;
+        background: url(../imagens/responsivo/1350/linha-centro.png);
+        height: 188px;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 39px;
+        position: relative;
+        z-index: 2;
+    }
+    #logo-ctd img {
+        width: 148px;
+    }
+    .link-secao-home {
+        width: 191px;
+        height: 37px;
+        margin: 31px 0 20px;
+    }
+    .secao-home-1 {
+        width: 574px;
+    }
+    .secao-home-2 {
+        width: 290px;
+    }
+    .secao-home-3 {
+        margin: 90px 0 -81px 0;
+        width: 287px;
+    }
+    .secao-home-4 {
+        margin-top: -153px;
+    }
+    .secao-home-5 .icone-secao-home {
+        margin: -43px 0 -10px;
+    }
+    #chamada-fale-conosco {
+        background-image: url(../imagens/responsivo/1350/fundo-fale-conosco.png);
+        margin-top: 50px;
+        height: 281px;
+    }
+    #link-fale-conosco {
+        background: url(../imagens/responsivo/1350/btn-fale-conosco.png);
+        height: 55px;
+        width: 346px;
+        margin-top: 100px;
+    }
+    #titulo-blog {
+        background: url(../imagens/responsivo/1350/as-ultimas-do-blog.png);
+        width: 205px;
+        height: 109px;
+    }
+    .post-blog-home {
+        background-image: url(../imagens/responsivo/1350/linha-veja-mais-blog.png);
+        width: 315px;
+        height: 202px;
+    }
+    .btn-veja-mais.btn-blog-home {
+        background-image: url(../imagens/responsivo/1350/btn-veja-mais-blog.png);
+        margin: 9px 60px 0 0;
+    }
+    .btn-veja-mais {
+        width: 125px;
+        height: 39px;
+    }
+    .ctd-post-blog p {
+        font-size: 13px;
+    }
+    .foto-blog-clientes-home {
+        background: url(../imagens/responsivo/1350/fundo-foto-blog.png);
+        width: 104px;
+        height: 103px;
+        padding-top: 2px;
+    }
+    .esconde-blog-clientes-home {
+        width: 95px;
+        height: 95px;
+        padding: 0;
+    }
+    .esconde-blog-clientes-home img {
+        height: auto;
+        width: 100%;
+    }
+    .ctd-post-blog {
+        width: 170px;
+    }
+    .central {
+        max-width: 716px;
+    }
+    #titulo-clientes-home {
+        background: url(../imagens/responsivo/1350/icone_aspas.png);
+        width: 252px;
+        height: 101px;
+        margin: 70px 0 20px;
+    }
+    .ctd-home-clientes .foto-blog-clientes-home {
+        background: url(../imagens/responsivo/1350/fundo-foto-clientes.png);
+    }
+    #home-clientes {
+        background-image: url(../imagens/responsivo/1350/linha-veja-mais-depoimento.png);
+        background-position-y: 191px;
+    }
+    .titulo-clientes-home {
+        font-size: 15px;
+        margin: 10px 0 5px;
+        height: 90px;
+    }
+    .ctd-post-clientes {
+        font-size: 13px;
+        width: 220px;
+    }
+    .ctd-home-clientes {
+        margin-bottom: 55px;
+    }
+    .btn-veja-mais.btn-clientes-home {
+        background-image: url(../imagens/responsivo/1350/btn-veja-mais-depoimento.png);
+        height: 37px;
+        margin: -51px 123px 0 0;
+    }
+    .titulo-clientes-home::before {
+        background-image: url(../imagens/responsivo/1350/aspas-esquerda-home.png);
+    }
+    .titulo-clientes-home::after {
+        background-image: url(../imagens/responsivo/1350/aspas-direita-home.png);
+    }
+    .titulo-clientes-home::after, .titulo-clientes-home::before {
+        width: 25px;
+        height: 19px;
+    }
+    #home-blog-clientes {
+        background-image: url(../imagens/responsivo/1350/fundo-ctd-home.png);
+        height: 684px;
+        margin-bottom: -31px;
+    }
+    .titulo-blog-home {
+        font-size: 15px;
+    }
+    .titulos {
+        font-size: 26px;
+    }
+    #chamada-newsletter {
+        background-image: url(../imagens/responsivo/1350/fundo-email-mkt.png);
+        height: 263px;
+        padding: 55px 0 0;
+    }
+    #formulario-newsletter input[type=submit] {
+        background-image: url(../imagens/responsivo/1350/fundo-btn-cadastrar.png);
+        padding: 13px 25px 13px 35px;
+        font-size: 17px;
+    }
+    #formulario-newsletter input[type=text] {
+        padding: 13px 25px;
+        font-size: 17px;
+        width: 280px;
+    }
+    .titulos {
+        font-size: 26px;
+    }
+    #rodape {
+        background-image: url(../imagens/responsivo/1350/rodape-branco.png);
+        text-align: center;
+        padding-top: 60px;
+        margin-top: -37px;
+    }
+    #menu-rodape {
+        font-size: 12px;
+        margin: 11px 0 0 10px;
+        float: none;
+        display: inline-block;
+    }
+    #link-contato-rodape {
+        background: url(../imagens/responsivo/1350/btn-contato-rodape.png);
+        width: 98px;
+        height: 37px;
+        float: none;
+        display: inline-block;
+        margin-bottom: -15px;
+    }
+    #redes-social span {
+        font-size: 16px;
+    }
+    #linkedin-btn, #facebook-btn {
+        background-image: url(../imagens/responsivo/1350/btn-sociais.png);
+        height: 37px;
+    }
+    #facebook-btn {
+        width: 37px;
+    }
+    #linkedin-btn {
+        background-position: -36px 0;
+        width: 35px;
+    }
+    #redes-social {
+        float: none;
+        margin: 20px auto;
+        width: 151px;
+    }
+    #copyright {
+        font-size: 11px;
     }
 }
