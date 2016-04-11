@@ -799,8 +799,9 @@ a:hover{
     height: auto;
 }
 .container-banner {
-    width: 1800px;
+    max-width: 1800px;
     margin: -55px auto 0;
+    overflow: hidden;
     position: relative;
 }
 #logo-banner {
@@ -814,12 +815,13 @@ a:hover{
     overflow: hidden;
 }
 .container-imagens img {
-    width: 100%;
+    width: 1800px;
     height: auto;
     opacity: 0;
     position: absolute;
     top: 0;
-    left: 0;
+    left: 50%;
+    margin-left: -900px;
 }
 #resumo-banner {
     position: absolute;
@@ -1367,9 +1369,6 @@ p#arquivos-paragrafo-1 {
         font-size: 17px;
         width: 280px;
     }
-    .titulos {
-        font-size: 26px;
-    }
     #rodape {
         background-image: url(../imagens/responsivo/1350/rodape-branco.png);
         text-align: center;
@@ -1411,5 +1410,85 @@ p#arquivos-paragrafo-1 {
     }
     #copyright {
         font-size: 11px;
+    }
+    .chamada-topo {
+        height: 184px;
+        background-image: url(../imagens/responsivo/1350/chamada-como-fazemos.png);
+    }
+    .page-quem-somos .chamada-topo{
+        background-image: url(../imagens/responsivo/1350/chamada-quem-somos.png);
+    }
+    .page-pq-existimos .chamada-topo{
+        background-image: url(../imagens/responsivo/1350/chamada-pq-existimos.png);
+    }
+    .page-nossos-clientes .chamada-topo{
+        background-image: url(../imagens/responsivo/1350/chamada-nossos-clientes.png);
+        position: relative;
+        z-index: 2;
+    }
+    .page-fale-conosco .chamada-topo{
+        background-image: url(../imagens/responsivo/1350/chamada-fale-conosco.png);
+        height: 256px;
+    }
+    .container-banner {
+        max-width: 1800px;
+        margin-top: -36px;
+        width: 100%;
+    }
+    .icone-pq-existimos {
+        background: url(../imagens/responsivo/1350/icones-baloes.png);
+        width: 693px;
+        height: 374px;
+        margin: 50px auto 40px;
+    }
+    .ctd-pg {
+        margin-bottom: 50px;
+    }
+    .razao h1 {
+        font-size: 17px;
+    }
+    .razao-0 .icone {
+        background: url(../imagens/responsivo/1350/icone-setas.png);
+        width: 77px;
+        height: 59px;
+    }
+    .razao-1 .icone {
+        background: url(../imagens/responsivo/1350/icone-caderno.png);
+        width:62px;
+        height: 62px;
+    }
+    .razao-2 .icone {
+        background: url(../imagens/responsivo/1350/icone-people.png);
+        width: 59px;
+        height: 70px;
+        margin-top: 54px;
+    }
+    .razao-3 .icone {
+        background: url(../imagens/responsivo/1350/icone-tempo.png);
+        width: 63px;
+        height: 64px;
+    }
+    .razao-4 .icone {
+        background: url(../imagens/responsivo/1350/icone-graficos.png);
+        width: 62px;
+        height: 61px;
+    }
+    .page-pq-existimos #link-fale-conosco {
+        background: url(../imagens/responsivo/1350/btn-saiba-como-fazemos.png);
+        width: 438px;
+    }
+    .icone-container .icone {
+        margin-top: 50px;
+    }
+    .razao {
+        width: 164px;
+        height: 258px;
+        margin: 0 20px;
+    }
+    #razoes-container {
+        width: 620px;
+    }
+    .razao.razao-3 {
+        margin-left: 120px;
     }
 }
