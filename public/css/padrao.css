@@ -1624,4 +1624,28 @@ p#arquivos-paragrafo-1 {
     .item-como-fazemos-formatos .borda-azul {
         margin-top: -30px;
     }
+    .item-central-quem-somos .icone-secao-home {
+        margin-top: -42px;
+    }
+    .btn-linkedin::before {
+        background: url(../imagens/responsivo/1350/btn-linkedin.png);
+        width: 40px;
+        height: 39px;
+        margin-bottom: -13px;
+    }
+    .equipe-diretoras .container-equipe-img {
+        width: 230px;
+    }
+    .container-equipe-img img {
+        width: 100%;
+    }
+    .container-equipe-img {
+        width: 160px;
+    }
+    .equipe.equipe-diretoras {
+        margin-bottom: 90px;
+    }
+    .equipe {
+        margin-bottom: 50px;
+    }
 }
