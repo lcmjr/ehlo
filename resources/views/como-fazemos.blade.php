@@ -65,7 +65,7 @@
         </div>
         @endforeach
         <div class="clear"></div>
-        <h1 class="titulos" style="margin: 110px 0 70px;">Aplicamos essas duas etapas <br/><b>nos formatos:</b></h1>
+        <h1 class="titulos titulo-etapas-como-fazemos">Aplicamos essas duas etapas <br/><b>nos formatos:</b></h1>
         <section class="item-central item-central-como-fazemos-9 item-como-fazemos-formatos">
             <div class="borda-azul">
                 <div class="icone-como-fazemos"></div>
