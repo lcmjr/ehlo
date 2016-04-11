@@ -888,13 +888,6 @@ a:hover{
 .ctd-depoimento-txt {
     font-size: 18px;
 }
-.ctd-depoimento-txt p b {
-    color: #fd8e09;
-    font-size: 25px;
-}
-.ctd-depoimento-txt {
-    font-size: 18px;
-}
 /* Fale Conosco */
 #form-fale-conosco {
     width: 780px;
@@ -1647,5 +1640,46 @@ p#arquivos-paragrafo-1 {
     }
     .equipe {
         margin-bottom: 50px;
+    }
+    #resumo-banner {
+        font-size: 21px;
+        width: 430px;
+        right: 10%;
+    }
+    .nome-pessoa {
+        font-size: 15px;
+    }
+    #resumo-banner p {
+        margin: 5px 0;
+    }
+    #logo-banner {
+        width: 180px;
+        height: 180px;
+    }
+    .cliente {
+        width: 150px;
+        height: 150px;
+        margin: 7px;
+    }
+    #resumo-banner::after, #resumo-banner::before {
+        width: 51px;
+        height: 41px;
+    }
+    #resumo-banner::before {
+        background: url(../imagens/responsivo/1350/aspas-esquerda.png);
+        width: 52px;
+    }
+    #resumo-banner::after {
+        background: url(../imagens/responsivo/1350/aspas-direita.png);
+    }
+    .ctd-depoimento-txt {
+        font-size: 13px;
+    }
+    .ctd-depoimento-txt p b {
+        font-size: 18px;
+    }
+    .container-imagens {
+        height: 451px;
+        position: relative;
     }
 }
