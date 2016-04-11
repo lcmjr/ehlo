@@ -930,7 +930,7 @@ a:hover{
     margin: 0!important;
 }
 #maps {
-    background: url(../imagens/mapa.png) center center no-repeat;
+    background: url(../imagens/mapa.jpg) top center no-repeat;
     max-width: 1800px;
     margin: 0 auto -43px;
     height: 634px;
@@ -1421,7 +1421,7 @@ p#arquivos-paragrafo-1 {
     }
     .page-fale-conosco .chamada-topo{
         background-image: url(../imagens/responsivo/1350/chamada-fale-conosco.png);
-        height: 256px;
+        height: 184px;
     }
     .container-banner {
         max-width: 1800px;
@@ -1605,6 +1605,9 @@ p#arquivos-paragrafo-1 {
     .icone-como-fazemos {
         margin: 50px auto 0;
     }
+    .container-itens-como-fazemos {
+        width: 665px;
+    }
     .item-central-como-fazemos-10 .icone-como-fazemos {
         background: url(../imagens/responsivo/1350/icone-marketing-mentoring.png);
         width: 60px;
@@ -1681,5 +1684,56 @@ p#arquivos-paragrafo-1 {
     .container-imagens {
         height: 451px;
         position: relative;
+    }
+    #form-fale-conosco .ipt-reset, #form-fale-conosco select {
+         padding: 15px 28px;
+         font-size: 15px;
+     }
+    #arquivos-paragrafo-2 {
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    #arquivos-paragrafo-2 span {
+        font-size: 12px;
+    }
+    #icone-envelope {
+        background: url(../imagens/responsivo/1350/icone-envelope.png);
+        width: 57px;
+        height: 59px;
+        margin-top: 30px;
+    }
+    #form-fale-conosco {
+        background-image: url(../imagens/responsivo/1350/form-contato-linha.png);
+        width: 600px;
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+    input#arquivos {
+        width: 38%;
+    }
+    input#arquivos {
+        display: none;
+    }
+    #drop-arquivos-container {
+        margin: 0 24px 0 0!important;
+    }
+    #fale-conosco-msg,#drop-arquivos-container {
+        height: 182px;
+    }
+    #enviar-form {
+        background: url(../imagens/responsivo/1350/btn-enviar.png);
+        width: 219px;
+        height: 48px;
+        margin-top: 18px;
+    }
+    #marcador-maps {
+        background: url(../imagens/responsivo/1350/mapa-icon.png);
+        width: 66px;
+        margin-top: 60px;
+        height: 74px;
+    }
+    #maps {
+        background-image: url(../imagens/responsivo/1350/mapa.jpg);
+        height: 487px;
     }
 }
