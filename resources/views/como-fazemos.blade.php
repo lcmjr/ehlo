@@ -2,6 +2,9 @@
 
 @section('title', '- Como Fazemos')
 @section('classe-pg', 'page-como-fazemos')
+@section('javascript')
+    <script type="text/javascript" src="js/como-fazemos.js"></script>
+@stop
 @section('conteudo')
     <div class="central">
         <section class="item-central item-central-como-fazemos-2">
@@ -11,7 +14,7 @@
             </div>
             <div class="clear"></div>
         </section>
-        <h1 class="titulos">Atuamos em <b>duas etapas:</b></h1>
+        <h1 class="titulos titulo-duas-etapas">Atuamos em <b>duas etapas:</b></h1>
         <section class="item-central item-central-como-fazemos-3 item-como-fazemos-etapas">
             <div class="icone-secao-home"></div>
             <div class="ctd-como-fazemos">
@@ -21,25 +24,33 @@
             </div>
             <div class="clear"></div>
         </section>
-        <section class="container-itens-como-fazemos">
-            <?php for($i=4;$i<7;$i++){
-                if($i>4){
-                    $mais_igual=(!isset($mais_igual))?"+":"=";
-            ?>
-                <div class="bolinha-mais-igual"><?= $mais_igual;?></div>
-               <?php }
+        <section id="esconde-itens-como-fazemos" class="">
+            <div class="container-itens-como-fazemos" data-andar="0">
+                <?php for($i=4;$i<7;$i++){
+                    if($i>4){
+                    if(!isset($mais_igual)){
+                        $mais_igual="+";
+                        $classe_igual = "bolinha-mais";
+                    }else{
+                        $mais_igual="=";
+                        $classe_igual = "bolinha-igual";
+                    }
                 ?>
-                <div class="item-como-fazemos item-como-fazemos-<?php echo $i-3;?>">
-                    <div class="borda-azul">
-                        <div class="icone-como-fazemos"></div>
-                    </div>
-                    <div class="ctd-como-fazemos">
-                        <h1 class="titulos cor-azul-3"><?= $data_view['textos'][$i]['titulo'];?></h1>
-                        <?= $data_view['textos'][$i]['texto'];?>
-                    </div>
-                </div><?php
-            }?>
-            <div class="clear"></div>
+                    <div class="bolinha-mais-igual <?= $classe_igual;?>"><?= $mais_igual;?></div>
+                   <?php }
+                    ?>
+                    <div class="item-como-fazemos item-como-fazemos-<?php echo $i-3;?>">
+                        <div class="borda-azul">
+                            <div class="icone-como-fazemos"></div>
+                        </div>
+                        <div class="ctd-como-fazemos">
+                            <h1 class="titulos cor-azul-3"><?= $data_view['textos'][$i]['titulo'];?></h1>
+                            <?= $data_view['textos'][$i]['texto'];?>
+                        </div>
+                    </div><?php
+                }?>
+                <div class="clear"></div>
+            </div>
         </section>
         <section class="item-central item-central-como-fazemos-7 item-como-fazemos-etapas">
             <div class="icone-secao-home"></div>

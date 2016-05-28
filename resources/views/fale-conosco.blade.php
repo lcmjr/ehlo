@@ -15,7 +15,7 @@
             <input type="text" name="email" class="ipt-reset" placeholder="email*"/>
             <input type="text" name="telefone" class="ipt-reset" placeholder="telefone"/>
             <input type="text" name="empresa" class="ipt-reset" placeholder="empresa"/>
-            <input type="file" name="arquivos[]"  multiple="multiple"  id="arquivos"/>
+            <!--<input type="file" name="arquivos[]"  multiple="multiple"  id="arquivos"/>-->
             <select name="estado" id="estados">
                 <option value="">estado</option>
             </select>
