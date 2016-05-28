@@ -15,6 +15,7 @@
             @endforeach
         </div>
         <div class="central">
+            <div id="logo-banner" class="cliente"><img src="uploads/logo.png" alt=""/></div>
             <div id="resumo-banner">
                 <p>Para o meu negócio, a área de marketing sempre foi muito importante, porém nunca havia sido feita de maneira profissional.<br/><a class='leia-mais-clientes' href='depoimentos/8'>leia mais</a></p>
                 <span class='nome-pessoa'>testestest</span><br/><span class='nome-empresa'>GlitzMania</span>
@@ -23,7 +24,6 @@
                 <div class="setas-banner" id="seta-esquerda"></div>
                 <div class="setas-banner" id="seta-direita"></div>
             </div>
-            <div id="logo-banner" class="cliente"><img src="uploads/logo.png" alt=""/></div>
         </div>
     </div>
     @include('includes.nossos-clientes')

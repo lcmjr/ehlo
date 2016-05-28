@@ -11,4 +11,11 @@ $(window).scroll(function(event) {
     }else{
         $("#topo-principal").removeClass("topo-scroll");
     }
+}).ready(function(){
+    $(this).scroll();
+    $('#btn-menu-rpsv').click(function(){
+       $('#menu-principal').slideToggle(200);
+    });
+    //btn-menu-rpsv" class="rpsv-mobile"></div>
+    //<nav id="menu-principal"
 });

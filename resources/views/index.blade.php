@@ -2,7 +2,7 @@
 
 @section('classe-pg', 'page-home')
 @section('conteudo')
-    <div class="central">
+    <div class="central" id="ctd-secoes-home">
         <?php
         $cor[1] = 'cor-rosa';
         $cor[2] = 'cor-verde';

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ehlo @yield('title')</title>
     <base href="http://localhost:8000/"/>
     <link href='https://fonts.googleapis.com/css?family=Maven+Pro:400,700' rel='stylesheet' type='text/css'>
@@ -13,6 +14,8 @@
 <body class="@yield('classe-pg')">
 <header id="topo-principal">
     <div class="central">
+        <a id="logo-rpsv" href="/" class="rpsv-mobile"></a>
+        <div id="btn-menu-rpsv" class="rpsv-mobile"></div>
         <nav id="menu-principal">
             <a href="/por-que-existimos" class="link-menu cor-rosa">Por que existimos</a>
             <a href="/como-fazemos" class="link-menu cor-azul">Como fazemos</a>
@@ -35,7 +38,7 @@
 </div>
 <footer id="rodape">
     <div class="central">
-        <a id="link-contato-rodape"></a>
+        <a id="link-contato-rodape" href="/fale-conosco"></a>
         <nav id="menu-rodape">
             <a href="/por-que-existimos" class="link-rodape">por que existimos</a>
             <span>&bull;</span>

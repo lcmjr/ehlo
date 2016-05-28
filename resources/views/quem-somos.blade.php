@@ -14,7 +14,7 @@
             <?= $data_view['quem_somos']['texto'];?>
         </section>
     </div>
-    <h1 class="titulos" style="margin-top: 120px;">Conheça <b>nossa equipe</b></h1>
+    <h1 class="titulos" id="titulo-quem-somos">Conheça <b>nossa equipe</b></h1>
     <div id="container-equipe" class="central">
         @foreach($data_view['equipe'] as $equipe)
             <div class="equipe <?php if($equipe['id'] <=2){echo "equipe-diretoras";}?>">

@@ -3,7 +3,8 @@
 @section('title', '- Fale Conosco')
 @section('classe-pg', 'page-fale-conosco')
 @section('javascript')
-<script type="text/javascript" src="js/estados_cidades.js"></script>
+    <script type="text/javascript" src="js/estados_cidades.js"></script>
+    <script type="text/javascript" src="js/filedrag.js"></script>
 @stop
 @section('conteudo')
     <div class="ctd-pg">
@@ -14,6 +15,7 @@
             <input type="text" name="email" class="ipt-reset" placeholder="email*"/>
             <input type="text" name="telefone" class="ipt-reset" placeholder="telefone"/>
             <input type="text" name="empresa" class="ipt-reset" placeholder="empresa"/>
+            <input type="file" name="arquivos[]"  multiple="multiple"  id="arquivos"/>
             <select name="estado" id="estados">
                 <option value="">estado</option>
             </select>
