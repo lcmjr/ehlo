@@ -9,8 +9,14 @@
 @section('conteudo')
     <div class="ctd-pg">
         <div id="icone-envelope"></div>
+        <?php if($success){?>
+        <p><b>Sua mensagem foi enviada com sucesso. Em breve entraremos em contato!<br/>Obrigado!</b> </p>
+        <?php }else{?>
         <p><b>Estamos aqui para te ajudar.</b> Preencha o formulário abaixo<br/> e entraremos em contato.</p>
-        <form action="" method="post" id="form-fale-conosco">
+        <form action="https://www.rdstation.com.br/api/1.2/conversions" method="POST" id="form-fale-conosco">
+            <input type="hidden" name="redirect_to" value="http://ehlo.com.br/fale-conosco/success" />
+            <input type="hidden" name="identificador" value="Contato Ehlo" />
+            <input type="hidden" name="token_rdstation" value="4c9c0a9cbd2be95f457b1a3854748df5" />
             <input type="text" name="nome" class="ipt-reset" placeholder="nome*"/>
             <input type="text" name="email" class="ipt-reset" placeholder="email*"/>
             <input type="text" name="telefone" class="ipt-reset" placeholder="telefone"/>
@@ -19,7 +25,7 @@
             <select name="estado" id="estados">
                 <option value="">estado</option>
             </select>
-            <select name="cidade" id="cidades">
+            <!--<select name="cidade" id="cidades">
                 <option value="">cidade</option>
             </select>
             <div id="drop-arquivos-container" class="ipt-reset">
@@ -28,13 +34,14 @@
                     <br/>arraste e solte ou <b>clique aqui</b>
                     <br/>
                 <span>formatos suportados: JPG, GIF, PNG, PDF</span></p>
-            </div>
+            </div>-->
             <textarea name="mensagem" class="ipt-reset" id="fale-conosco-msg" placeholder="mensagem"></textarea>
             <br/>
             <span id="preenche-obrigatorio">*Preenchimento obrigatório</span>
             <br/>
-            <input type="button" id="enviar-form"/>
+            <button id="enviar-form"></button>
         </form>
+        <?php }?>
         <div id="marcador-maps"></div>
     </div>
     <div id="maps"></div>

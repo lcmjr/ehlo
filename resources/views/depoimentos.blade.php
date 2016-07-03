@@ -3,9 +3,15 @@
 @section('title', '- Depoimento - '.$data_view['cliente-principal']['nome_empresa'])
 @section('classe-pg', 'page-nossos-clientes')
 @section('conteudo')
-    <div class="container-banner container-banner-depoimento">
+    <div class="container-banner container-banner-depoimento <?php
+    if($data_view['cliente-principal']['foto_fundo']==NULL){
+        echo "depoimento-sem-foto";
+    }?>">
+        <?php if($data_view['cliente-principal']['foto_fundo']!=NULL){?>
         <div class="container-imagens"><img src="uploads/{{$data_view['cliente-principal']['foto_fundo']}}" alt="{{$data_view['cliente-principal']['nome_empresa']}}"/></div>
+            <?php }?>
         <div class="central">
+            {{$data_view['cliente-id']}}
             <div id="logo-banner" class="cliente"><img src="uploads/{{$data_view['cliente-principal']['logo']}}" alt="{{$data_view['cliente-principal']['nome_empresa']}}"/></div>
         </div>
     </div>

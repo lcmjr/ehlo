@@ -17,7 +17,8 @@ Route::get('/como-fazemos', 'ComoFazemos@pagina');
 Route::get('/quem-somos', 'QuemSomosController@pagina');
 Route::get('/nossos-clientes', 'NossosClientesController@pagina');
 Route::get('/depoimentos/{id}', 'NossosClientesController@depoimentos');
-Route::get('/fale-conosco', 'FaleConoscoController@pagina');
+Route::get('/fale-conosco/{sucess}', 'FaleConoscoController@pagina');
+Route::get('/fale-conosco/', 'FaleConoscoController@pagina');
 
 /*
 |--------------------------------------------------------------------------

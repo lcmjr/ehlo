@@ -6,7 +6,7 @@ $(document).ready(function () {
             options += '<option value="' + val.nome + '">' + val.nome + '</option>';
         });
         $("#estados").html(options);
-        $("#estados").change(function () {
+        /*$("#estados").change(function () {
             var options_cidades =  '<option value="">cidades</option>';
             var str = "";
             $("#estados option:selected").each(function () {
@@ -20,6 +20,6 @@ $(document).ready(function () {
                 }
             });
             $("#cidades").html(options_cidades);
-        }).change();
+        }).change();*/
     });
 });

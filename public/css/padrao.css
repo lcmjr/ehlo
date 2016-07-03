@@ -336,6 +336,7 @@ a:hover{
     overflow: hidden;
     border-radius: 90px;
     width: 126px;
+    position: relative;
     height: 126px;
     margin: 0 auto;
     padding-top: 2px;
@@ -347,10 +348,18 @@ a:hover{
     float: right;
     width: 230px;
     margin-right: 10px;
+    height: 173px;
+    overflow: hidden;
+    margin-bottom: -6px;
 }
 .ctd-post-blog p {
     margin: 0;
     font-size: 18px;
+}
+.post-blog-home .esconde-blog-clientes-home img {
+    width: 200%;
+    position: relative;
+    left: -50%;
 }
 .btn-veja-mais{
     width: 165px;
@@ -507,6 +516,7 @@ a:hover{
 .page-pq-existimos #link-fale-conosco {
     background-image: url(../imagens/btn-saiba-como-fazemos.png);
     max-width: 583px;
+    width: 583px;
 }
 /* como fazemos */
 .borda-azul {
@@ -796,6 +806,9 @@ a:hover{
 .cliente img {
     width: 100%;
     height: auto;
+    display: block;
+    margin: 0;
+    border: 0;
 }
 .container-banner {
     max-width: 1800px;
@@ -810,6 +823,10 @@ a:hover{
     opacity: 0;
     border: none;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+}
+.depoimento-sem-foto #logo-banner {
+    margin: 70px auto 10px;
+    display: block;
 }
 .container-imagens {
     height: 701px;
@@ -909,8 +926,9 @@ a:hover{
 }
 #form-fale-conosco select {
     text-align: left;
-    background: url(../imagens/seta-select.png) no-repeat 330px center #ebebeb;
+    background: url(../imagens/seta-select.png) no-repeat 740px center #ebebeb;
     -webkit-appearance: none;
+    width: 100%;
     color: #6d6d6e;
     -moz-appearance: none;
     appearance: none;
@@ -932,6 +950,7 @@ a:hover{
 #fale-conosco-msg {
     height: 242px;
     margin: 0!important;
+    width: 100%!important;
 }
 #maps {
     background: url(../imagens/mapa.jpg) top center no-repeat;
@@ -1298,6 +1317,7 @@ p#arquivos-paragrafo-1 {
     }
     .ctd-post-blog {
         width: 170px;
+        height: 137px;
     }
     .central {
         max-width: 716px;
@@ -1758,10 +1778,17 @@ p#arquivos-paragrafo-1 {
     .page-fale-conosco .ctd-pg {
         width: 624px;
     }
+    #form-fale-conosco select {background-position: 560px center;}
 }
 @media (max-width: 1000px) {
     .item-central-como-fazemos-2 {
         width: 100%;
+    }
+}
+@media (max-width: 850px) {
+    .page-home .chamada-topo {
+        background-image: url(../imagens/responsivo/650/chamada-home.png);
+        height: 207px;
     }
 }
 @media (max-width: 735px) {
@@ -2138,7 +2165,7 @@ p#arquivos-paragrafo-1 {
 @media (max-width: 580px) {
     .page-home .chamada-topo {
         background-image: url(../imagens/responsivo/320/chamada-home.png);
-        height: 290px;
+        height: 330px;
     }
     .icone-pq-existimos {
         height: 270px;
@@ -2335,6 +2362,10 @@ p#arquivos-paragrafo-1 {
     .item-como-fazemos-formatos {
         margin-bottom: 30px;
         padding: 0;
+    }
+    .page-pq-existimos #link-fale-conosco {
+        width: 90%;
+        background-size: contain;
     }
 }
 @media (max-width: 400px) {

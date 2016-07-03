@@ -30,6 +30,18 @@
         <div class="central">
             <section id="home-blog">
                 <div id="titulo-blog"></div>
+                @foreach($datas as $data)
+                    <div class="post-blog-home">
+                        <div class="foto-blog-clientes-home"><div class="esconde-blog-clientes-home"><img src="<?php echo str_replace("/beta","",$data['foto']);?>" alt="<?php echo $data['titulo'];?>"/></div></div>
+                        <div class="ctd-post-blog">
+                            <h1 class="titulo-blog-home cor-roxo"><?php echo $data['titulo'];?></h1>
+                            <p><?php echo $data['texto'];?></p>
+                        </div>
+                        <div class="clear"></div>
+                        <a href="<?php echo str_replace("/beta","",$data['link']);?>" class="btn-veja-mais btn-blog-home"></a>
+                    </div>
+                @endforeach
+                <!--
                 <div class="post-blog-home">
                     <div class="foto-blog-clientes-home"><div class="esconde-blog-clientes-home"><img src="uploads/foto-blog.jpg" alt=""/></div></div>
                     <div class="ctd-post-blog">
@@ -47,7 +59,7 @@
                     </div>
                     <div class="clear"></div>
                     <a href="#" class="btn-veja-mais btn-blog-home"></a>
-                </div>
+                </div>-->
             </section>
             <section id="home-clientes">
                 <div id="titulo-clientes-home"></div>

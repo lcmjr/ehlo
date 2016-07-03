@@ -16,6 +16,4 @@ $(window).scroll(function(event) {
     $('#btn-menu-rpsv').click(function(){
        $('#menu-principal').slideToggle(200);
     });
-    //btn-menu-rpsv" class="rpsv-mobile"></div>
-    //<nav id="menu-principal"
 });
