@@ -36,7 +36,7 @@
 <body class="@yield('classe-pg')">
 <header id="topo-principal">
     <div class="central">
-        <a id="logo-rpsv" href="http://ehlo.com.br/beta/public/" class="rpsv-mobile"></a>
+        <a id="logo-rpsv" href="http://ehlo.com.br/" class="rpsv-mobile"></a>
         <div id="btn-menu-rpsv" class="rpsv-mobile"></div>
         <nav id="menu-principal">
             <a href="http://ehlo.com.br/por-que-existimos" class="link-menu cor-rosa">Por que existimos</a>

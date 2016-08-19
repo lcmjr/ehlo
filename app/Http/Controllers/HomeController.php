@@ -19,6 +19,7 @@ class HomeController extends Controller
             $data[] = array('titulo' => $post->post_title,'texto' => $post->post_content,
                 'foto' => $post->thumbnail->attachment->guid,'link' => $post->guid);
         }
+       // print_r($data);
         return view('index')->with('secoes_home',$secoes_home)->with('clientes',$clientes)->with('datas',$data);
     }
 }
